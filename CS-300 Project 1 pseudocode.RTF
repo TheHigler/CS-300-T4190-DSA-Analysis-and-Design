@@ -1,0 +1,530 @@
+{\rtf1\ansi\deff3\adeflang1025
+{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Arial;}{\f3\froman\fprq2\fcharset0 Liberation Serif{\*\falt Times New Roman};}{\f4\froman\fprq2\fcharset0 Liberation Sans{\*\falt Arial};}{\f5\froman\fprq2\fcharset128 Times New Roman;}{\f6\fnil\fprq2\fcharset0 Liberation Serif{\*\falt Times New Roman};}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}
+{\stylesheet{\s0\snext0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033 Normal;}
+{\s15\sbasedon0\snext16\nowidctlpar\hyphpar0\sb240\sa120\keepn\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f4\fs28\lang1033 Heading;}
+{\s16\sbasedon0\snext16\sl276\slmult1\nowidctlpar\hyphpar0\sb0\sa140\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033 Text Body;}
+{\s17\sbasedon16\snext17\sl276\slmult1\nowidctlpar\hyphpar0\sb0\sa140\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033 List;}
+{\s18\sbasedon0\snext18\nowidctlpar\hyphpar0\sb120\sa120\cf0\i\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033 Caption;}
+{\s19\sbasedon0\snext19\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033 Index;}
+{\s20\sbasedon0\snext20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033 Table Contents;}
+{\s21\sbasedon20\snext21\qc\nowidctlpar\hyphpar0\cf0\b\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033 Table Heading;}
+}{\*\generator Ultra_Office/6.2.3.2$Windows_x86 LibreOffice_project/}{\info{\creatim\yr0\mo0\dy0\hr0\min0}{\revtim\yr2023\mo4\dy9\hr7\min54}{\printim\yr0\mo0\dy0\hr0\min0}}{\*\userprops}\deftab709
+\hyphauto0\viewscale110
+{\*\pgdsctbl
+{\pgdsc0\pgdscuse451\pgwsxn12240\pghsxn15840\marglsxn1134\margrsxn1134\margtsxn1134\margbsxn1134\pgdscnxt0 Default Style;}}
+\formshade{\*\pgdscno0}\paperh15840\paperw12240\margl1134\margr1134\margt1134\margb1134\sectd\sbknone\sectunlocked1\pgndec\pgwsxn12240\pghsxn15840\marglsxn1134\margrsxn1134\margtsxn1134\margbsxn1134\ftnbj\ftnstart1\ftnrstcont\ftnnar\aenddoc\aftnrstcont\aftnstart1\aftnnrlc
+{\*\ftnsep\chftnsep}\pgndec\pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+Ron Bal}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+CS-300 Project 1 Pseudocode}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+4/}{\rtlch \ltrch\loch
+9}{\rtlch \ltrch\loch
+/2023}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+CourseFile = open(filename)}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+fstream to open file, if file is not found}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab Cout << \u8220\'93file not found\u8221\'94 << endl;}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab Else file found}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab Read file lines}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab if less than two parameters in line}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab return error}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab else read lines}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab Close file}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\qc{\b\rtlch \ltrch\loch
+Course Information:}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\ul\ulc0\b\rtlch \ltrch\loch
+Vector}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ul\ulc0\b\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+CourseObject vector<string>courseInfo()}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab While not end of file}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab for each line}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab for parameter count less than or equal to two  and not zero}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab \tab pushback value to vector}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab if parameter count equal three}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab \tab pushback value to new line}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\ul\ulc0\b\rtlch \ltrch\loch
+Hashtable}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ul\ulc0\b\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+create course vector}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+create hashtable class}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+while not end of file}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab for each line in file}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab for values one and two}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab create temp item to hold values}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab if third value}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab add to current value}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab insert each value}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ulnone\ulc0\b0\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\ul\ulc0\b\rtlch \ltrch\loch
+Binary Tree}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ul\ulc0\b\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+root is a null pointer}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+Insert method}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab if root is a null pointer}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab root equals current course}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab else if course number is smaller}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab add to left }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab if left node is a null pointer}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab \tab add course number}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab else}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab \tab if course number smaller}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab \tab \tab add to left}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab \tab if course number is greater}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab \tab \tab add to right}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab else if course number greater}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab add to right}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab if right node is a null pointer}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab \tab add course number}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab else}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab \tab if course number is smaller}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab \tab \tab add to left}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab \tab if course number is greater}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab \tab \tab \tab add to right}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\qc{\ulnone\ulc0\b\rtlch \ltrch\loch
+Print Course Information:}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ul\ulc0\b\rtlch \ltrch\loch
+Vector}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql\ul\ulc0\b\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+Get input from user}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+If input equals courseNumber}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab Print course information}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+If course has prerequisites}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\sl254\slmult1\ql\widctlpar\sb0\sa160\ltrpar{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab print course prerequisites}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql\ul\ulc0\b\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ul\ulc0\b\rtlch \ltrch\loch
+Hashtable}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql\ul\ulc0\b\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+input from user}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+assign user input to key}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+if key found}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab print course information}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab for prerequisite of course}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab \tab print prerequisites for course}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql\ul\ulc0\b\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ul\ulc0\b\rtlch \ltrch\loch
+Binary Tree}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql\ul\ulc0\b\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+Create print method}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+get user input}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab if root node is not a null pointer}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab traverse left}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab \tab output course information}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033{\rtlch \ltrch\loch
+\tab \tab traverse right}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab \tab \tab output course information}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql\ulnone\ulc0\b0\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\qc{\ulnone\ulc0\b\rtlch \ltrch\loch
+Menu}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab initialize input to zero}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab while choice does not equal 9}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab output menu options; Menu:, 1. Load Courses, 2. Print Course List, 3. Print Course, 9. Exit, \tab Enter choice:.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab Get user input}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab \tab Switch choice}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab \tab Case 1: }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab \tab \tab load courses (file, structure)}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab \tab \tab break}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab \tab Case 2: }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab \tab \tab print courses}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab \tab \tab break}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab \tab Case 3: }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab \tab \tab Print course information by course ID}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab \tab \tab break}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab output Good bye}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab return 0}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql\ulnone\ulc0\b0\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\qc{\ulnone\ulc0\b\rtlch \ltrch\loch
+Print alphanumeric list of courses}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ul\ulc0\b\rtlch \ltrch\loch
+Vector}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql\ul\ulc0\b\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+Define search method}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+Partition method integer (vector<Course>& courses, integer begin, integer end)}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab initialize lower index to first element and higher index to last element}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab mid point equals lower index + (higher index \u8211\'96 lower index) / 2}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab pivot equals midpoint}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab while pivot is less than higher index}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab \tab decrement}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab swap lower values left of pivot and higher values to the right}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab \tab temp equals lower index}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab \tab lower index equals higher index}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab \tab higher index equals temp}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql\ulnone\ulc0\b0\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab }{\i0\ulnone\ulc0\b0\rtlch \ltrch\loch
+output course ID, course name, course prerequisites}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql\ul\ulc0\b\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ul\ulc0\b\rtlch \ltrch\loch
+Hashtable}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql\ul\ulc0\b\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\i0\ulnone\ulc0\b0\rtlch \ltrch\loch
+Define quick sort method(vector<Course?& courses, integer begin, integer end)}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\i0\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab mid equals 0}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\i0\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab lower index equals beginning}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\i0\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab higher index equals end}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\i0\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\i0\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab if begin is greater than or equal to end}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\i0\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab \tab return}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\i0\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab lower index partition(courses, lower index, higher index)}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\i0\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab quick sort(courses, lower index, end index)}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\i0\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab quick sort(courses, end index + 1, higher index}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\i0\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\i0\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab }{{\*\bkmkstart __DdeLink__935_560236427}{\*\bkmkend __DdeLink__935_560236427}\i0\ulnone\ulc0\b0\rtlch \ltrch\loch
+output course ID, course name, course prerequisites}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\rtlch \ltrch\loch
+\line }{\ul\ulc0\b\rtlch \ltrch\loch
+Binary Tree}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql\ul\ulc0\b\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+Define binary search tree sorting method }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab if node is not a null pointer}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab search left node}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab output course ID, course name, course prerequisites}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab search right node}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql{\ulnone\ulc0\b0\rtlch \ltrch\loch
+\tab output course ID, course name, course prerequisites}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\ql\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\qc{\ulnone\ulc0\b\rtlch \ltrch\loch
+Runtime analysis}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\qc\b\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\qc\b\rtlch \ltrch\loch
+
+\par \trowd\trql\trleft0\ltrrow\trrh206\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\b\rtlch \ltrch\loch
+Vector}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\b\rtlch \ltrch\loch
+Line Cost}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\b\rtlch \ltrch\loch
+Times Executed}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\b\rtlch \ltrch\loch
+Total Cost}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+create vector}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+for each line}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+course item vector}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+N}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+while loop}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+append}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+pushback course}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+N}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+N}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl\rtlch \ltrch\loch\fs4
+\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl\rtlch \ltrch\loch\fs4
+\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\b\rtlch \ltrch\loch
+Total Cost}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\b\rtlch \ltrch\loch
+5n+1}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl\rtlch \ltrch\loch\fs4
+\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl\rtlch \ltrch\loch\fs4
+\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\b\rtlch \ltrch\loch
+Runtime}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\b\rtlch \ltrch\loch
+O(n)}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl\rtlch \ltrch\loch\fs4
+\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl\rtlch \ltrch\loch\fs4
+\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl\rtlch \ltrch\loch\fs4
+\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl\rtlch \ltrch\loch\fs4
+
+\par \pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl\rtlch \ltrch\loch\fs4
+\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\b\rtlch \ltrch\loch
+Hashtable}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\b\rtlch \ltrch\loch
+Line Cost}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\b\rtlch \ltrch\loch
+Times Executed}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\b\rtlch \ltrch\loch
+Total Cost}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+creat table}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+insert}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+0}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+0}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+0}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+key for course}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+no key found}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+assign node to key}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+else}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh314\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+assign old node to UINT_MAX, set key, old node to course, old node to next null pointer}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+4}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+4n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+else}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+next open node}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+add new node to end}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+for each line}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+course item vector creation}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+while prerequisite exists}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+append prerequisite}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+insert course}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl\rtlch \ltrch\loch\fs4
+\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl\rtlch \ltrch\loch\fs4
+\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\b\rtlch \ltrch\loch
+Total Cost}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\b\rtlch \ltrch\loch
+16n+1}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl\rtlch \ltrch\loch\fs4
+\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl\rtlch \ltrch\loch\fs4
+\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\b\rtlch \ltrch\loch
+Runtime\~}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\b\rtlch \ltrch\loch
+O(n)}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl\rtlch \ltrch\loch\fs4
+\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl\rtlch \ltrch\loch\fs4
+\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl\rtlch \ltrch\loch\fs4
+\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl\rtlch \ltrch\loch\fs4
+\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl\b\rtlch \ltrch\loch
+
+\par \pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\b\rtlch \ltrch\loch
+Binary Tree}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\b\rtlch \ltrch\loch
+Line Cost}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl\b\rtlch \ltrch\loch
+
+\par \pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\b\rtlch \ltrch\loch
+Times Executed}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl\b\rtlch \ltrch\loch
+
+\par \pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\b\rtlch \ltrch\loch
+Total Cost}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+add node}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+0}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+0}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+0}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+add root if root is null}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+node less than left}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+no left node}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+new node becomes left}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+node greater than right}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+no right node}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+new node becomes right}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+for each line}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+create course vector}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+while prerequisite exists}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+append prerequisite}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+insert course}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+1}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\rtlch \ltrch\loch
+n}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh188\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl\rtlch \ltrch\loch\fs4
+\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl\rtlch \ltrch\loch\fs4
+\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\b\rtlch \ltrch\loch
+Total Cost}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\b\rtlch \ltrch\loch
+11n+2}\cell\row\pard\trowd\trql\trleft0\ltrrow\trrh194\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2066\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx2074\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx5038\clpadfl3\clpadl28\clpadft3\clpadt28\clpadfb3\clpadb28\clpadfr3\clpadr28\clvertalc\cellx10979\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl\rtlch \ltrch\loch\fs4
+\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl\rtlch \ltrch\loch\fs4
+\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\b\rtlch \ltrch\loch
+Runtime}\cell\pard\plain \s20\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\loch\f3\fs24\lang1033\intbl{\b\rtlch \ltrch\loch
+O(n)}\cell\row\pard\pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\qc\b\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\qc{\ulnone\ulc0\b\rtlch \ltrch\loch
+Data structure recommendation}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\qc\b\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\sl480\slmult1\ql{\rtlch \ltrch\loch
+\tab }{\rtlch \ltrch\loch\loch\f5\hich\af5
+The three data structures all have their advantages and disadvantages for what this program must do. The hash table has the ability to search through a list quickly and printing the intended result. The hash creation is slower compared to the other two algorithms. The information also can\u8217\'92t be sorted efficiently so, printing the course list in alphanumeric order, each value would have to be searched, sorted, and then print the end result. }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\sl480\slmult1\ql{\rtlch \ltrch\loch\loch\f5\hich\af5
+\tab }{\rtlch \ltrch\loch\loch\f5\hich\af5
+Binary trees sort faster than the other two algorithms used and is more organized, and implements addition, removal, and replacing better than the others. While a binary tree is more organize, it can run slower as the tree holds more information. }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\sl480\slmult1\ql{\rtlch \ltrch\loch\loch\f5\hich\af5
+\tab }{\rtlch \ltrch\loch\loch\f5\hich\af5
+Vectors read though files and add objects quicker than the other algorithms and has a quicker runtime than the other algorithms. The downfall of using vectors is having to search through each item within the list for course information. }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af6\langfe1033\dbch\af6\afs24\alang1081\loch\f3\fs24\lang1033\sl480\slmult1\ql{\rtlch \ltrch\loch\loch\f5\hich\af5
+\tab }{\rtlch \ltrch\loch\loch\f5\hich\af5
+I feel implementing the vector structure would be the most suitable for this project as it has the ability to quickly sort and output the course information and it\uc2 \u8217\'81\'66s prerequisites. \uc1 }
+\par }
